@@ -23,6 +23,7 @@ main{
 main p{
     font-size: 18px; 
     margin-left: 20px;
+    font-weight: bold;
 }
 h1{
     font-weight: bold;
@@ -33,12 +34,30 @@ h1{
     margin-left: 15px;
 } 
 h2{ 
-    margin: 15px 15px;
     font-weight: bold;
+    margin: 15px 15px;
     font-size: 25px;
     color: #B987EC
 }
 .lista li{
     margin-left: 20px;
+    font-weight: bold;
+}
+table{
+    display: flex;
+    justify-content: space-between;
+}
+table td img{
+    display: flex;
+    background-color: black;
+    height: 125px;
+
 }
 
+.textos{
+    vertical-align:top;
+    text-align: right;
+    display: flex;
+    font-size: 18px; 
+    font-weight: bold;
+}
