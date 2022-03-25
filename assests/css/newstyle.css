@@ -6,6 +6,8 @@ header{
     background-color: #B987EC;
 }
 footer{
+    font-weight: bold;
+    padding: 15px 30px;
     background-color: #B987EC;
 }
 .logo_acai{
@@ -43,21 +45,18 @@ h2{
     margin-left: 20px;
     font-weight: bold;
 }
-table{
+.Nossos_produtos ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-table td img{
+.Nossos_produtos ul li{
     display: flex;
-    background-color: black;
-    height: 125px;
-
+    align-items: center;
 }
-
-.textos{
-    vertical-align:top;
-    text-align: right;
-    display: flex;
-    font-size: 18px; 
-    font-weight: bold;
+.Nossos_produto ul li div{
+    display: block;
+}
+.Nossos_produtos figure img{
+    height: 150px;
 }
